@@ -31,6 +31,12 @@ Install Forganiser with pip
 ```bash
   pip install forganiser
 ```
+
+## Usage
+
+```bash
+  forganiser
+```
     
 ## Authors
 

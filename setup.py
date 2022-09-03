@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="forganiser",
-    version="0.0.1",
+    version="0.0.2",
     author="Jigyasu",
     author_email="jigyasu@outlook.in",
     description="A nifty tool to sort your messy folders",
@@ -20,8 +20,13 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    py_modules=['forganiser', 'create_folders', 'down_path', 'header', 'move_files', '__init__'],
+    py_modules=['create_folders', 'down_path', 'header', 'move_files', '__init__'],
     package_dir={"": "src"},
     python_requires=">=3.6",
-    install_requires = ["termcolor"]
+    install_requires = ["termcolor"],
+    entry_points={
+        'console_scripts': [
+            'forganiser = src:main',
+        ]
+    }
 )
