@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/create_folders.py
+src/down_path.py
+src/fileaway.py
+src/header.py
+src/move_files.py
+src/fileaway.egg-info/PKG-INFO
+src/fileaway.egg-info/SOURCES.txt
+src/fileaway.egg-info/dependency_links.txt
+src/fileaway.egg-info/entry_points.txt
+src/fileaway.egg-info/requires.txt
+src/fileaway.egg-info/top_level.txt
